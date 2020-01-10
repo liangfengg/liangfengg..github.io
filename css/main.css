@@ -1086,7 +1086,7 @@ pre .javascript .function {
   display: block;
 }
 .header {
-  background: url("../images/heart.jpg");
+  background: url("C:/myblog/themes/next/source/images/heart.jpg");
 }
 .header-inner {
   position: relative;
@@ -1923,7 +1923,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cf8ea4;
+  background: #66ff94;
 }
 .links-of-blogroll {
   font-size: 13px;
