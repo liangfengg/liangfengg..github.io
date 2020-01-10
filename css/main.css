@@ -1923,7 +1923,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50db9a;
+  background: #cf8ea4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3227,4 +3227,12 @@ body {
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
+}
+::selection {
+  background: #00c4b6;
+  color: #f7f7f7;
+}
+::-moz-selection {
+  background: #00c4b6;
+  color: #f7f7f7;
 }
