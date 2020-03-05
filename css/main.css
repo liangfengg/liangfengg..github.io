@@ -626,22 +626,22 @@ pre .javascript .function {
   padding: 0 2px;
 }
 .post-body .label.default {
-  background: #f0f0f0;
+  background: #e8e8e8;
 }
 .post-body .label.primary {
-  background: #efe6f7;
+  background: #e8dbf3;
 }
 .post-body .label.info {
-  background: #e5f2f8;
+  background: #d9ecf4;
 }
 .post-body .label.success {
-  background: #e7f4e9;
+  background: #ddf0e0;
 }
 .post-body .label.warning {
-  background: #fcf6e1;
+  background: #fcf2d6;
 }
 .post-body .label.danger {
-  background: #fae8eb;
+  background: #f8dee1;
 }
 .post-body .tabs {
   margin-bottom: 20px;
@@ -759,15 +759,16 @@ pre .javascript .function {
   margin-bottom: 20px;
   padding: 15px;
   position: relative;
-  border: 1px solid #eee;
-  border-left-width: 5px;
+  background: #f9f9f9;
+  border: initial;
+  border-left: 3px solid #eee;
 }
 .post-body .note h2,
 .post-body .note h3,
 .post-body .note h4,
 .post-body .note h5,
 .post-body .note h6 {
-  margin-top: 0;
+  margin-top: 3px;
   border-bottom: initial;
   margin-bottom: 0;
   padding-top: 0;
@@ -790,7 +791,18 @@ pre .javascript .function {
 .post-body .note img:last-child {
   margin-bottom: 0;
 }
+.post-body .note:not(.no-icon) {
+  padding-left: 45px;
+}
+.post-body .note:not(.no-icon)::before {
+  font-family: 'FontAwesome';
+  font-size: larger;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+}
 .post-body .note.default {
+  background: #efefef;
   border-left-color: #777;
 }
 .post-body .note.default h2,
@@ -800,7 +812,12 @@ pre .javascript .function {
 .post-body .note.default h6 {
   color: #777;
 }
+.post-body .note.default:not(.no-icon)::before {
+  content: "\f0a9";
+  color: #777;
+}
 .post-body .note.primary {
+  background: #eee5f6;
   border-left-color: #6f42c1;
 }
 .post-body .note.primary h2,
@@ -810,7 +827,12 @@ pre .javascript .function {
 .post-body .note.primary h6 {
   color: #6f42c1;
 }
+.post-body .note.primary:not(.no-icon)::before {
+  content: "\f055";
+  color: #6f42c1;
+}
 .post-body .note.info {
+  background: #e3f1f7;
   border-left-color: #428bca;
 }
 .post-body .note.info h2,
@@ -820,7 +842,12 @@ pre .javascript .function {
 .post-body .note.info h6 {
   color: #428bca;
 }
+.post-body .note.info:not(.no-icon)::before {
+  content: "\f05a";
+  color: #428bca;
+}
 .post-body .note.success {
+  background: #e5f4e7;
   border-left-color: #5cb85c;
 }
 .post-body .note.success h2,
@@ -830,7 +857,12 @@ pre .javascript .function {
 .post-body .note.success h6 {
   color: #5cb85c;
 }
+.post-body .note.success:not(.no-icon)::before {
+  content: "\f058";
+  color: #5cb85c;
+}
 .post-body .note.warning {
+  background: #fcf5df;
   border-left-color: #f0ad4e;
 }
 .post-body .note.warning h2,
@@ -840,7 +872,12 @@ pre .javascript .function {
 .post-body .note.warning h6 {
   color: #f0ad4e;
 }
+.post-body .note.warning:not(.no-icon)::before {
+  content: "\f06a";
+  color: #f0ad4e;
+}
 .post-body .note.danger {
+  background: #fae6e9;
   border-left-color: #d9534f;
 }
 .post-body .note.danger h2,
@@ -848,6 +885,10 @@ pre .javascript .function {
 .post-body .note.danger h4,
 .post-body .note.danger h5,
 .post-body .note.danger h6 {
+  color: #d9534f;
+}
+.post-body .note.danger:not(.no-icon)::before {
+  content: "\f056";
   color: #d9534f;
 }
 .pagination .prev,
@@ -1280,7 +1321,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #867574;
+  background: #f23eff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3226,9 +3267,6 @@ code {
     margin: 20px 0;
   }
 }
-.category-all {
-  min-height: 600px;
-}
 .category-list {
   display: flex;
   flex-direction: column;
@@ -3410,7 +3448,7 @@ code {
   margin-bottom: 20px !important;
 }
 blockquote {
-  font-size: 15px;
+  font-size: 16px;
   background: rgba(217,239,220,0.369);
   border-left-color: rgba(15,197,48,0.522);
 }
