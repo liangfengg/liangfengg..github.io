@@ -6,7 +6,7 @@ const ap = new APlayer({
       {
         name: "Try",
         artist: 'Colbie Caillat',
-        url: 'http://m10.music.126.net/20200303162150/beb37fa7a90ef85ce3a309926d835f64/ymusic/aa92/eef3/8798/4609a34d085eba915a708b5b1ebe472a.mp3',
+        url: 'http://m10.music.126.net/20200305163238/eb33555b8303e4fca3e64d3860339981/ymusic/aa92/eef3/8798/4609a34d085eba915a708b5b1ebe472a.mp3',
         cover: 'https://p2.music.126.net/QBQvSe84znaWIm2PrhQ_ng==/5930765720512200.jpg?param=130y130',
       },
       {
