@@ -3,9 +3,10 @@
   <entry>
     <title>Hexo个人博客添加标签云</title>
     <url>/2020/01/10/Hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E6%A0%87%E7%AD%BE%E4%BA%91/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Hexo个人博客添加标签云"><a href="#Hexo个人博客添加标签云" class="headerlink" title="Hexo个人博客添加标签云"></a>Hexo个人博客添加标签云</h3><h4 id="一、hexo-tag-cloud插件介绍"><a href="#一、hexo-tag-cloud插件介绍" class="headerlink" title="一、hexo-tag-cloud插件介绍"></a>一、hexo-tag-cloud插件介绍</h4><blockquote>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="一、hexo-tag-cloud插件介绍"><a href="#一、hexo-tag-cloud插件介绍" class="headerlink" title="一、hexo-tag-cloud插件介绍"></a>一、hexo-tag-cloud插件介绍</h4><blockquote>
 <p>hexo-tag-cloud插件是作者写的一个Hexo博客的标签云插件，旨在直观的展示标签的种类，美观大方且非常优雅。</p>
 </blockquote>
+<a id="more"></a>
 <h5 id="1-1-插件下载地址："><a href="#1-1-插件下载地址：" class="headerlink" title="1.1 插件下载地址："></a>1.1 插件下载地址：</h5><p>插件的GitHub地址：<a href="https://github.com/MikeCoder/hexo-tag-cloud" target="_blank" rel="noopener">https://github.com/MikeCoder/hexo-tag-cloud</a></p>
 <h5 id="1-2-插件说明："><a href="#1-2-插件说明：" class="headerlink" title="1.2 插件说明："></a>1.2 插件说明：</h5><p>说明地址：<a href="https://github.com/MikeCoder/hexo-tag-cloud/blob/master/README.ZH.md" target="_blank" rel="noopener">https://github.com/MikeCoder/hexo-tag-cloud/blob/master/README.ZH.md</a></p>
 <h4 id="二、安装插件"><a href="#二、安装插件" class="headerlink" title="二、安装插件"></a>二、安装插件</h4><p>进入到 <code>hexo</code> 的根目录，在 <code>package.json</code> 中添加依赖: <code>&quot;hexo-tag-cloud&quot;: &quot;2.0.*&quot;</code> 操作如下：</p>
@@ -23,7 +24,8 @@
 <p>textColor: ‘#333’ 字体颜色<br>textHeight: 25 字体高度，根据部署的效果调整<br>maxSpeed: 0.1 文字滚动速度，根据自己喜好调整</p>
 <h4 id="五、部署"><a href="#五、部署" class="headerlink" title="五、部署"></a>五、部署</h4><h5 id="5-1-本地部署预览效果"><a href="#5-1-本地部署预览效果" class="headerlink" title="5.1 本地部署预览效果"></a>5.1 本地部署预览效果</h5><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure></div>
 <h5 id="5-2-博客部署到github或者码云"><a href="#5-2-博客部署到github或者码云" class="headerlink" title="5.2 博客部署到github或者码云"></a>5.2 博客部署到github或者码云</h5><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure></div>
-<p>推荐使用 <code>&amp;&amp;</code> 作为组合命令的串联符号<br>注：一定要严格清理缓存，这样不容易出现问题，即需要执行 <code>hexo clean</code></p>
+<p>推荐使用 <code>&amp;&amp;</code> 作为组合命令的串联符号</p>
+<div class="note warning"><p>注：一定要严格清理缓存，这样不容易出现问题，即需要执行 <code>hexo clean</code></p></div>
 ]]></content>
       <categories>
         <category>博客</category>

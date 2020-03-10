@@ -2188,7 +2188,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5b344d;
+  background: #ccff2a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3609,6 +3609,11 @@ div.post-block.tag .collection-title h2 {
   .headband {
     height: 0px;
   }
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
 .posts-expand .post-comments-count {
   display: none;
