@@ -31,7 +31,7 @@ window.onload=function(){
       titleTime = setTimeout(function() {
         document.title = OriginTitile;
       }, 2000);
-    }*/
-  });
+    }
+  });*/
 
 };
