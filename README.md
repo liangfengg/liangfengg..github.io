@@ -2,4 +2,4 @@
 
 [Git托管博客效果](https://liangfengg.github.io/)
 
-[Coding托管博客效果](http://le1me2.coding-pages.com/)
+[Coding托管博客效果](https://rwhr98.coding-pages.com)
